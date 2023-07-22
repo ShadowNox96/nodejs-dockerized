@@ -8,4 +8,4 @@ RUN npm install
 
 EXPOSE 3000
 
-CMD ["node", "--watch", "init.js"]
+CMD ["npm", "run", "dev"]

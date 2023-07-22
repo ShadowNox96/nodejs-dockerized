@@ -10,7 +10,7 @@ services:
     environment:
       - NODE_ENV=local
     volumes: 
-      - ./src:/app/src
+      - ./:/app/
     ports:
       - 3000:3000
     networks:
