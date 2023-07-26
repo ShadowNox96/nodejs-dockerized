@@ -1,10 +1,9 @@
-FROM node:18-alpine
-
-WORKDIR /app
+FROM node:18
 
 COPY . /app
-RUN npm install
+WORKDIR /app
 
+RUN npm install
 
 EXPOSE 3000
 

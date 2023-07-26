@@ -10,9 +10,10 @@ services:
     environment:
       - NODE_ENV=local
     volumes: 
-      - ./:/app/
+      - ./src:/app/src
     ports:
       - 3000:3000
+    command: "npm run dev"
     networks:
       - development
 
